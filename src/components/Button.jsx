@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './Button.css'; // we'll create next
+import './button.css'; // we'll create next
 
 const Button = ({ children, onClick, variant = 'primary' }) => {
   return (

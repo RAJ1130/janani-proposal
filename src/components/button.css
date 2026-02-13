@@ -1,0 +1,37 @@
+.btn {
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 60px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+  margin: 0.5rem;
+  min-width: 160px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn-primary {
+  background: #ff8a9f;
+  color: white;
+}
+
+.btn-secondary {
+  background: #d9d0d0;
+  color: #4a4a4a;
+}
+
+.btn-accept {
+  background: #a8e6cf;
+  color: #2b5e42;
+}
+
+.btn-friend {
+  background: #ffd3b6;
+  color: #9b5e2e;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
